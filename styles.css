@@ -1,0 +1,144 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: hsl(185, 75%, 39%);
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 14px;
+}
+
+.wrapper {
+  position: relative;
+  border-radius: 20px 20px 20px 20px;
+}
+
+.wrapper__image {
+  display: flex;
+}
+
+.wrapper__image-top {
+  position: relative;
+  top: -400px;
+  right: 300px;
+}
+
+.wrapper__image-bottom {
+  position: relative;
+  top: 200px;
+  right: 100px;
+}
+
+.wrapper__card {
+  position: relative;
+  bottom: 850px;
+  border-radius: 20px;
+}
+
+.wrapper__card-container {
+  background-color: #fff;
+  width: 360px;
+  height: 450px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px 20px 20px 20px;
+  box-shadow: 0px 4px 8px 0px hsl(0, 0%, 59%, 0.7);
+}
+
+.wrapper__card-image--container, 
+.wrapper__card--bg-image {
+  width: 100%;
+  border-radius: 20px 20px 0px 0px;
+
+}
+.wrapper__card-image--container {
+  height: 210px;
+  
+}
+.wrapper__card--user-image {
+  position: relative;
+  left: 135px;
+  bottom: 51px;
+  border-radius: 50%;
+}
+
+.wrapper__card-text--container {
+  padding: 14px;
+  border-radius: 0px 0px 30px 30px;
+}
+
+.wrapper__card-title {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: hsl(229, 23%, 23%);
+}
+
+.wrapper__card-age {
+  color: hsl(0, 0%, 59%);
+}
+
+.wrapper__card-place {
+  width: auto;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 15px;
+
+  padding-right: 10px;
+  padding-bottom: 14px;
+  font-size: 1rem;
+  color: hsl(0, 0%, 59%);
+  font-weight: 400;
+}
+
+.line {
+  position: relative;
+  color: hsla(0, 0%, 59%);
+  opacity: 0.3;
+  margin: 0%;
+  margin-top: 10px;
+  width: 360px;
+  right: 14px;
+}
+
+.wrapper__card-stats {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 25px;
+}
+
+.wrapper__stats-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.wrapper__stats-title {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: hsl(229, 23%, 23%);
+}
+
+.wrapper__stats-subtitle {
+  font-weight: 400;
+  color: hsl(0, 0%, 59%);
+  margin-top: 12px;
+  font-size: 1rem;
+}
+
+.attribution {
+  background-color: whitesmoke;
+  padding: 14px;
+  margin-top: 30px;
+  font-size: 1rem;
+  color: hsl(185, 75%, 39%);
+}
